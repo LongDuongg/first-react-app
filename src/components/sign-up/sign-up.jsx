@@ -5,7 +5,7 @@ export const SignUp = ({}) => {
     return (
         <div className='sign-up-67h'>
             <div className='text'>
-                asdfg
+                test commit
             </div>
             
         </div>
