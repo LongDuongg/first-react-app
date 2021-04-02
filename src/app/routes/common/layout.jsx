@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {Link, useHistory} from 'react-router-dom';
 import "./layout.scss";
 import {cx} from "@emotion/css";
-import {routerHistory} from "../../common/router-history";
 
 export const Layout = ({props, children}) => {
-    console.log(props);
+    
     return (
         <div className="dashboard-layout-4dg">
             <div className="left-panel">
@@ -14,7 +13,7 @@ export const Layout = ({props, children}) => {
                         <div 
                             className={cx("link", {active: props.location.pathname === l.to})} 
                             key={i}
-                            onClick={() => routerHistory.push(l.to)}
+                            onClick={() => props.history.push(l.to)}
                         >
                             {l.name}
                         </div>

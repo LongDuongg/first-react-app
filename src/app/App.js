@@ -1,8 +1,7 @@
 import './App.scss';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import {Route1} from './route-1/route-1';
-import {Route2} from './route-2/route-2';
-import {routerHistory} from "../../common/router-history";
+import {Route1} from './routes/route-1/route-1';
+import {Route2} from './routes/route-2/route-2';
 
 function App({}) {
   return (
@@ -16,7 +15,7 @@ export default App
 const Routes = () => {
 
   return (
-    <Router history={routerHistory}>
+    <Router>
       <Switch>
         <Route exact path='/route-1' component={Route1}/>
         <Route exact path='/route-2' component={Route2}/>
