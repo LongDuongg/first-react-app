@@ -5,12 +5,10 @@ import {SignInButton} from './sign-in-button';
 
 export const SignIn = ({}) => {
     return (
-        <div className='form-container sign-in-container'>
-            <form action="#">
-                <SignInHeader/>
-                <SignInAccess/>
-                <SignInButton/>
-            </form>
+        <div className='sign-in-container'>
+            <SignInHeader/>
+            <SignInAccess/>
+            <SignInButton/>
         </div>
     )
 }

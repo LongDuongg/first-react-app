@@ -8,14 +8,13 @@ import {SignIn} from './components/sign-in/sign-in';
 function App({}) {
   return (
     <Router>
-      <div className='Header'>
+      <div className='container'>
         <Switch>
           <Route exact path='/'>
            <Header/>
           </Route>
         </Switch>
-      </div>     
-      <div className='container'>
+
         <Switch>
           <Route path='/sign up'>
             <SignUp/>
