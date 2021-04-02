@@ -1,0 +1,44 @@
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 10px;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e8491d solid 5px;
+}
+header #branding {
+    float: left;
+}
+header .container {
+    position: relative;
+}
+header .container nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    float: left;
+    padding: 0 15px;
+    display: inline;
+}
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
