@@ -1,0 +1,55 @@
+.student-1j4 {
+    & > .add-student-form {
+        padding-left: 15px;
+        & > .button-add-student {
+            width: 88.60%;
+            height: 40px;
+            font-size: 17px;
+            margin-top: 5px;
+        }
+        & > .form-group-student {
+            margin: 5px 0;
+            & > .label {
+                display: block;
+                font-weight: bold;
+            }
+            & > .input-student {
+                width: 88%;
+                height: 40px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    & > .table-student {
+        & > .list-attributes-student {
+            & > .table-row-student {
+                & > .id-student {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .name-student {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .class {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .phone-number-student {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .email-student {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+            }
+        }
+    }
+}

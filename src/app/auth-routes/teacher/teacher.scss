@@ -1,0 +1,55 @@
+.teacher-1k3 {
+    & > .add-teacher-form {
+        padding-left: 15px;
+        & > .button-add {
+            width: 99.70%;
+            height: 40px;
+            font-size: 17px;
+            margin-top: 5px;
+        }
+        & > .form-group-teacher {
+            margin: 5px 0;
+            & > .label {
+                display: block;
+                font-weight: bold;
+            }
+            & > .input {
+                width: 99%;
+                height: 40px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    & > .table-4j3 {
+        & > .list-attributes-3j2 {
+            & > .table-row-8h4 {
+                & > .id-teacher {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .name-teacher {
+                    padding-top: 50px;
+                    padding-right: 150px;
+                    padding-left: 60px;
+                }
+                & > .subject {
+                    padding-left: 60px;
+                    padding-top: 50px;
+                    padding-right: 150px;
+                }
+                & > .phone-number-teacher {
+                    padding-left: 60px;
+                    padding-top: 50px;
+                    padding-right: 150px;
+                }
+                & > .email-teacher {
+                    padding-left: 60px;
+                    padding-top: 50px;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}

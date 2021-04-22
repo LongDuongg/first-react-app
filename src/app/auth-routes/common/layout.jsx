@@ -26,13 +26,38 @@ export const Layout = ({props, children}) => {
 }
 
 const navLinks = [
+    // {
+    //     name: "Route 1",
+    //     to: "/route-1",
+    // },
+    // {
+    //     name: "Route 2",
+    //     to: "/route-2",
+    // },
     {
-        name: "Route 1",
-        to: "/route-1",
+        name: "Giáo viên",
+        to: "/teacher",
     },
     {
-        name: "Route 2",
-        to: "/route-2",
+        name: "Học sinh",
+        to: "/student",
     },
+    {
+        name: "Lớp học",
+        to: "/class",
+    },
+    {
+        name: "Môn học",
+        to: "/subject",
+    },
+    {
+        name: "Thời khóa biểu",
+        to: "/timetable",
+    },
+    // {
+    //     name: "Student marks",
+    //     to: "/student-marks",
+    // },
 ];
 
+ 
