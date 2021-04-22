@@ -1,5 +1,9 @@
 
 .sign-in-route-1b2 {
+    padding-top: 60px;
+}
+
+.sign-in-route-1b2 > .form-panel {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
@@ -9,8 +13,8 @@
     width: 768px;
     max-width: 100%;
     min-height: 480px;
-    margin-top: 60px;
-
+    margin: 0 auto;
+    
     & > .form-container form {
         background-color: #fff;
         display: flex;
@@ -149,17 +153,17 @@
     
     /* Animation */
     /*  Move signIn to the right */
-    .container.right-panel-active .sign-in-container {
+    &.right-panel-active .sign-in-container {
         transform: translateX(100%);
     }
     
     /*  Move overlay to the left */
-    .container.right-panel-active .overlay-container {
+    &.right-panel-active .overlay-container {
         transform: translateX(-100%);
     }
     
     /*  Bring sign up over sign in */
-    .container.right-panel-active .sign-up-container {
+    &.right-panel-active .sign-up-container {
         transform: translateX(100%);
         opacity: 1;
         z-index: 5;
@@ -167,15 +171,15 @@
     }
     
     /*  Move overlay back to the right */
-    .container.right-panel-active .overlay {
+    &.right-panel-active .overlay {
         transform: translateX(50%);
     }
     
-    .container.right-panel-active .overlay-left {
+    &.right-panel-active .overlay-left {
         transform: translateX(0);
     }
     
-    .container.right-panel-active .overlay-right {
+    &.right-panel-active .overlay-right {
         transform: translateX(20%);
     }
 }
